@@ -79,48 +79,9 @@
 						<h2>Contact</h2>
 						<p>I am a data scientist and enthusiast of digital transformation, that is a process of changing the digital mindset in all sectors, aiming to solve traditional problems faster and efficiently, moreover following the technological advances.</p>
 					</div>
-					<div class="col-md-3 col-md-push-2 text-center">
-						<p class="mt-md"><a href="#" class="btn btn-special btn-block">Contact me</a></p>
-					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<form onsubmit="sendEmail(); reset(); return false;">
-							<div class="form-group">
-								<label for="name">Name</label>
-								<input type="text" class="form-control" id="name">
-							</div>
-							<div class="form-group">
-								<label for="name">Email</label>
-								<input type="text" class="form-control" id="email">
-							</div>
-							<div class="form-group">
-								<label for="message"></label>
-								<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-							</div>
-							<div class="form-group">
-								<input type="submit" class="btn btn btn-special" value="Send Message">
-							</div>
-						</form>
-					</div>
-					<script src="https://smtpjs.com/v3/smtp.js"></script>
-					<script>
-						function sendEmail() {
-							Email.send({
-								SecureToken: "e33f2ae9-4100-4097-8a86-f2924536c911",
-							To : 'kelvinpac@gmail.com',
-							From : document.getElementById("email").value,
-							Subject : "TNew Contact Form Enquiry",
-							Body : "Name" + document.getElementById("name").value + "<br/> Email: " + document.getElementById("email").value + "<br/> Message: " + document.getElementById("message").value
-						}).then(
-						message => alert("Message Sent Successfully")
-						);
-					
-						}
-						</script>
-
-
-					<div class="col-md-5 col-md-push-1">
 						<div class="gtco-contact-info">
 							<h3>Address</h3>
 							<p>Building technological solutions near the beach. Meet me where the sky touches the sea!</p>
